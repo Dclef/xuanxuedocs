@@ -1,11 +1,11 @@
 site_name: 玄学原文
-site_url: http://dclef.github.io/xuanxuedocs
+site_url: http://dclef.github.io/xuanxuedocs/
 site_author: dclef
 site_description: 收集整理易医学，玄学，对此有兴趣的同学
 docs_dir: docs
 # Repository
 repo_name: dclef/xuanxuedocs
-repo_url: https://github.com/dclef/xuanxuedocs
+repo_url: https://github.com/dclef/xuanxuedocs/
 
 # Copyright
 copyright: Copyright &copy; 2023 dclef
