@@ -8,7 +8,7 @@ repo_name: dclef/xuanxuedocs
 repo_url: https://github.com/dclef/xuanxuedocs/
 
 # Copyright
-copyright: Copyright &copy; 2023 dclef
+copyright: Copyright &copy; 2024 dclef
 
 nav:
 - index.md
@@ -22,7 +22,6 @@ nav:
       - 五禽戏/index.md
     - 易筋经:
       - 易筋经/index.md
-
 
 - 医:
   - 中医:
@@ -42,8 +41,6 @@ nav:
           - 医方集解/index.md
       - 千金翼方:
           - 千金翼方/index.md
-      - 卷上:
-          - 卷上/index.md
       - 景岳全书:
           - 景岳全书/index.md
       - 本草纲目:
@@ -260,6 +257,7 @@ nav:
 - 卜:
   - 易经:
       - 易传:
+          - 卷上/index.md
           - 易传/index.md
       - 易经:
           - 易经/index.md
@@ -325,35 +323,35 @@ nav:
       - 大六壬断案/index.md
     - 注解大六壬指南:
       - 注解大六壬指南/index.md
-- 玄典:
-  - 道德经:
-    - 道德经/index.md
-  - 下清宫:
-    - 下清宫/index.md
-  - 六字诀:
-    - 六字诀/index.md
-  - 清静经:
-    - 清静经/index.md
-  - 心经:
-    - 心经/index.md
-  - 庄子:
-    - 庄子/index.md
-  - 列子:
-    - 列子/index.md
-  - 淮南子:
-    - 淮南子/index.md
-  - 黄帝阴符经:
-    - 黄帝阴符经/index.md
-  - 黄帝内经:
-    - 黄帝内经/index.md
-  - 黄庭内景经:
-    - 黄庭内景经/index.md
-  - 黄庭外景经:
-    - 黄庭外景经/index.md
-  - 周易参同契:
-    - 周易参同契/index.md
-  - 太上皇庭中景经:
-    - 太上皇庭中景经/index.md
+- 经:
+    - 道德经:
+      - 道德经/index.md
+    - 下清宫:
+      - 下清宫/index.md
+    - 六字诀:
+      - 六字诀/index.md
+    - 清静经:
+      - 清静经/index.md
+    - 心经:
+      - 心经/index.md
+    - 庄子:
+      - 庄子/index.md
+    - 列子:
+      - 列子/index.md
+    - 淮南子:
+      - 淮南子/index.md
+    - 黄帝阴符经:
+      - 黄帝阴符经/index.md
+    - 黄帝内经:
+      - 黄帝内经/index.md
+    - 黄庭内景经:
+      - 黄庭内景经/index.md
+    - 黄庭外景经:
+      - 黄庭外景经/index.md
+    - 周易参同契:
+      - 周易参同契/index.md
+    - 太上皇庭中景经:
+      - 太上皇庭中景经/index.md
 
 
 theme:
@@ -412,8 +410,9 @@ extra:
 
 # Plugins
 plugins:
-  - search
-
+  - search:
+        separator: '[\s\u200b\-]'
+  - offline
 # Extensions
 markdown_extensions:
   - abbr
