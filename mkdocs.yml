@@ -1,11 +1,12 @@
 site_name: 玄学原文
-site_url: http://dclef.github.io/xuanxuedocs/
+site_url: https://dclef.icu/xuanxuedocs/
 site_author: dclef
-site_description: 收集整理易医学，玄学，对此有兴趣的同学
+site_description: 玄学原文
 docs_dir: docs
 # Repository
 repo_name: dclef/xuanxuedocs
-repo_url: https://github.com/dclef/xuanxuedocs/
+repo_url: https://github.com/dclef/xuanxuedocs
+edit_uri: https://github.com/dclef/xuanxuedocs/tree/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2024 dclef
@@ -379,7 +380,7 @@ theme:
     - navigation.tracking
     - search.highlight
     - search.share
-    - search.suggest
+    #- search.suggest
     - toc.follow
     # - toc.integrate
   palette:
@@ -411,8 +412,9 @@ extra:
 # Plugins
 plugins:
   - search:
-        separator: '[\s\u200b\-]'
-  - offline
+        lang: zh
+        jieba_dict: dict.txt
+
 # Extensions
 markdown_extensions:
   - abbr
@@ -446,4 +448,3 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
